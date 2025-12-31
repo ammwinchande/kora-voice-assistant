@@ -1,4 +1,4 @@
-import { useState, useRef, useCallback, useEffect } from 'react';
+import { useState, useRef, useCallback } from 'react';
 
 interface UseAudioRecorderProps {
     onAudioData: (blob: Blob) => void;
