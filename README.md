@@ -73,8 +73,8 @@ Kora is an intelligent voice assistant that demonstrates the power of combining:
 
 ## 📖 Usage
 
-1. Click "Click to Start" after entering your Agent ID
-2. Click the microphone button to start a conversation
+1. Click "Start Kora" after entering your Agent ID
+2. Click the microphone button "Click to start" to start a conversation
 3. Speak naturally - Kora will respond with voice
 4. Click again to end the conversation
 
