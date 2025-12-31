@@ -94,15 +94,27 @@ Kora is an intelligent voice assistant that demonstrates the power of combining:
 
 ```
 frontend/
+├── dist/                   # Production build output
+├── docs/                   # Documentation
+│   ├── agent-setup.md      # Agent configuration guide
+│   └── demo-script.md      # Video demo script
+├── public/                 # Static assets
 ├── src/
+│   ├── assets/             # Images and static files
 │   ├── components/
-│   │   └── AgentChat.tsx      # Main conversation component
-│   ├── App.tsx                 # App entry & config
-│   └── index.css               # Tailwind styles
-├── docs/
-│   ├── agent-setup.md          # Agent configuration guide
-│   └── demo-script.md          # Video demo script
-└── package.json
+│   │   ├── AgentChat.tsx   # Main conversation component
+│   │   └── AudioVisualizer.tsx # Audio visualization component
+│   ├── hooks/
+│   │   └── useAudioRecorder.ts # Audio recording logic
+│   ├── App.tsx             # Main application component
+│   ├── index.css           # Global styles & Tailwind
+│   └── main.tsx            # Application entry point
+├── .gitignore              # Git ignore rules
+├── index.html              # HTML entry point
+├── package.json            # Dependencies and scripts
+├── tailwind.config.js      # Tailwind configuration
+├── tsconfig.json           # TypeScript configuration
+└── vite.config.ts          # Vite configuration
 ```
 
 ### Key Dependencies
@@ -114,7 +126,7 @@ frontend/
 
 ## 🏆 Hackathon Compliance
 
-This project satisfies the **ElevenLabs Challenge** requirements:
+This project aimed at satisfying the **ElevenLabs Challenge** requirements:
 
 ✅ Uses ElevenLabs Agents Platform  
 ✅ Integrates Google Cloud AI (Gemini)  
