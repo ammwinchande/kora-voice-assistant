@@ -86,7 +86,7 @@ Kora is an intelligent voice assistant that demonstrates the power of combining:
 
 ## 🎥 Demo
 
-[Link to demo video]
+[Demo Video](https://www.youtube.com/shorts/Dbgbd4IbqHo)
 
 ## 🛠️ Development
 
